@@ -51,8 +51,10 @@ export default function EXAM4() {
         value={InputValue}
       />
       <button onClick={() => {
+        const value = InputValue.replaceAll(" ","")
+        
         if (InputValue) {
-          setData((prev) => [...prev, ...InputValue.split(" ")])
+          setData((prev) => [...prev, ...value.split(" ")])
         }
       }}>
         ADD
