@@ -1,3 +1,6 @@
+my project structore
+
+
 src
 ├── routes
 |     └── routes.tsx
